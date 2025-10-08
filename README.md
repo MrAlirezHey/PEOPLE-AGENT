@@ -60,13 +60,13 @@ The project uses cutting-edge technology such as **LangGraph**, **LangChain**, a
 git clone https://github.com/yourusername/petaproc-people-agent.git
 cd petaproc-people-agent
 ```
-2. Install dependencies:
+## 2. Install dependencies:
 
 Make sure you have Python 3.x installed. Then, install the required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
-3. Environment Configuration:
+## 3. Environment Configuration:
 
 Create a .env file in the root of your project and add the following environment variables:
 ```bash
@@ -84,19 +84,19 @@ This will start the Streamlit app, which provides a web-based interface for inte
 How It Works
 Agent Process
 
-Initial Interaction:
+## Initial Interaction:
 
 The agent first asks the user a series of targeted questions to gather information about their skills and experiences. This could include topics like their background in software development, problem-solving abilities, and professional challenges.
 
-Claim Validation:
+## Claim Validation:
 
 Based on the user’s answers, the agent verifies the claims made by comparing them against public professional profiles (e.g., GitHub, LinkedIn) using web search tools.
 
-Score Assignment:
+## Score Assignment:
 
 The agent evaluates the user’s credibility and assigns a score (0-1) based on the accuracy of their claims.
 
-Profile Memory:
+## Profile Memory:
 
 The system remembers previous data provided by the user and continues to update the profile as new interactions occur, ensuring a continuously evolving, accurate profile.
 
@@ -123,11 +123,11 @@ Agent: "That sounds interesting! I’ll validate this claim by checking your Git
 
 Agent: The agent fetches data from GitHub, LinkedIn, and previous messages to validate the claim and assign a score.
 
-Contributing
+## Contributing
 
 We welcome contributions! Feel free to fork the repository, create a branch, and submit a pull request. If you find any issues or have suggestions, open an issue in the repository.
 
-Acknowledgments
+## Acknowledgments
 
 OpenAI: For providing GPT-4 and other LLM capabilities.
 
